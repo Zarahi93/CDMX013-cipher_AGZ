@@ -1,43 +1,42 @@
 .fondo {
-    background-color: #49b7f3; 
+    background-image: url("https://thumbs.dreamstime.com/b/opened-lock-futuristic-security-concept-modern-background-wallpaper-design-latest-technology-password-concept-opened-lock-223739696.jpg");
+    background-size: 1350px;
 }
 
 .caja1 {
-    background-color: #49b7f3;
-    border: 9px solid #49b7f3;
-  color:    black  ;
+  color:    rgb(15, 72, 228)  ;
   font-size: 25px;
   text-align: center;
+  text-shadow: 5px 5px 5px black;
+
 }
 
 .caja2 {
-    background-color: #9ed6f5;
-    border: 9px solid #9ed6f5;
-  color:    black  ;
-  font-size: 20px;
+  display: block;
+  color:    rgb(32, 18, 221)  ;
+  font-size: 33px;
   text-align: center;
+  text-shadow: 1px 1px 1px whitesmoke;
 }
 
 .caja3 {
   display: inline-block;
-    background-color: #88f784;
-    border: 9px solid #88f784;
+  border: 3px solid #78f359;
   color:    black  ;
   font-size: 20px;
   text-align: center;
   height: 200px ;
-  width:646px ;
+  width:655px ;
 
 }
 
 .caja4 {
   display: inline-block;
-    background-color: #f1624f;
-    border: 9px solid #f1624f;
+  border: 3px solid #f56147;
   color:    black  ;
   font-size: 20px;
   text-align: center;
   height: 200px ;
-  width:646px ;
+  width:655px ;
 
 }
