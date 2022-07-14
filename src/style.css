@@ -1,0 +1,43 @@
+.fondo {
+    background-color: #49b7f3; 
+}
+
+.caja1 {
+    background-color: #49b7f3;
+    border: 9px solid #49b7f3;
+  color:    black  ;
+  font-size: 25px;
+  text-align: center;
+}
+
+.caja2 {
+    background-color: #9ed6f5;
+    border: 9px solid #9ed6f5;
+  color:    black  ;
+  font-size: 20px;
+  text-align: center;
+}
+
+.caja3 {
+  display: inline-block;
+    background-color: #88f784;
+    border: 9px solid #88f784;
+  color:    black  ;
+  font-size: 20px;
+  text-align: center;
+  height: 200px ;
+  width:646px ;
+
+}
+
+.caja4 {
+  display: inline-block;
+    background-color: #f1624f;
+    border: 9px solid #f1624f;
+  color:    black  ;
+  font-size: 20px;
+  text-align: center;
+  height: 200px ;
+  width:646px ;
+
+}
