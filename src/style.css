@@ -1,42 +1,88 @@
 .fondo {
-    background-image: url("https://thumbs.dreamstime.com/b/opened-lock-futuristic-security-concept-modern-background-wallpaper-design-latest-technology-password-concept-opened-lock-223739696.jpg");
-    background-size: 1350px;
+    background-color:  #00B0F0;
 }
 
 .caja1 {
-  color:    rgb(15, 72, 228)  ;
-  font-size: 25px;
+  color:    black  ;
+  font-size: 22px;
   text-align: center;
-  text-shadow: 5px 5px 5px black;
+  text-shadow: 1px 1px 1px whitesmoke;
 
 }
 
 .caja2 {
   display: block;
-  color:    rgb(32, 18, 221)  ;
-  font-size: 33px;
+  background-color:    #4FD1FF  ;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
   text-align: center;
   text-shadow: 1px 1px 1px whitesmoke;
 }
 
 .caja3 {
   display: inline-block;
+  background-color: #78f359;
   border: 3px solid #78f359;
   color:    black  ;
   font-size: 20px;
   text-align: center;
-  height: 200px ;
+  height: 180px ;
   width:655px ;
 
 }
 
 .caja4 {
   display: inline-block;
+  background-color: #f56147;
   border: 3px solid #f56147;
   color:    black  ;
   font-size: 20px;
   text-align: center;
-  height: 200px ;
+  height: 180px ;
   width:655px ;
 
+}
+
+#resCif{
+font-size: 17px;
+position: relative;
+left: 520px;
+top: 40px;
+background-color: azure;
+border-radius: 10px;
+padding: 10px 60px;
+width: 200px;
+flex-direction: column;
+box-shadow: 0 0 30px rgba(0,0,0,0.2);
+  }
+
+button {
+  text-align: center; 
+  font-weight: 600;
+  font-size: 20px;
+  color: black ;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:20px;
+  padding-right:20px;
+  background-color: #09dd5a;
+  border-color: #d5e8ec;
+  border-radius: 6px;
+  border-width: 1px;
+  border-style: solid;
+
+}
+
+button:hover{
+  background: transparent;
+  color: #067c33;
+  border-color: #09dd5a;
+  border-width: 3px;
+border-style: solid;
+}
+
+::placeholder {
+  color: rgb(18, 18, 243);
+  font-style: italic;
+  text-align: center;
 }

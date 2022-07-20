@@ -6,41 +6,42 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body class="fondo">
-    <div id="root" class="caja1">
+    <header id="root" class="caja1">
     <h1>¿Te gustaría aumentar la seguridad de tu contraseña de e-mail?</h1>
-    </div>
+  </header>
     <br>
-    <div id="parrafo" class="caja2">
+    <main id="parrafo" class="caja2">
 <p1>Solo ingresa la palabra que quieres cifrar y ¡listo!</p1>
 <br>
   <p1>¡También puedes descifrar una palabra de la misma manera! </p1>
-    </div>
+    </main>
+    <br> <!--Salto de linea--> 
     <br>
-    <br>
-<div id="cifrar" class="caja3">
+<section id="cifrar" class="caja3">
   <br>
-  <input type="text" id="pacifrar" placeholder="Tu contraseña a cifrar" size="22">
-  <br>
+  <input type="string" id="paCifrar" placeholder="Tu contraseña a cifrar" size="22">
   <br>
   <br>
   <input type="text" id="c" placeholder="código" size="12">
   <br>
   <br>
-  <button type="submit">Cifrar</button>
-</div>
-
-<div id="descifrar" class="caja4">
+  <button type="submit" id="cb">Cifrar</button>
+</section>
+<section id="descifrar" class="caja4">
   <br>
-  <input type="text" id="padescifrar" placeholder="Tu contraseña a descifrar" size="22">
-  <br>
+  <input type="text" id="paDescifrar" placeholder="Tu contraseña a descifrar" size="22">
   <br>
   <br>
   <input type="text" id="dc" placeholder="código" size="12">
   <br>
   <br>
-  <button type="submit">Descifrar</button>
+  <button type="submit" id="dcb">Descifrar</button>
 
-</div>
+</section>
+<section id="respuesta" class="caja5">
+  <textarea type="text" id="resCif" placeholder="La contraseña aparecera aquí"></textarea> 
+ </section>
+ 
     <script src="index.js" type="module"></script>
   </body>
 </html>
