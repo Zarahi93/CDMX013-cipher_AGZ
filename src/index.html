@@ -15,31 +15,20 @@
 <br>
   <p1>¡También puedes descifrar una palabra de la misma manera! </p1>
     </main>
-    <br> <!--Salto de linea--> 
-    <br>
+<br> <!--Salto de linea--> 
 <section id="cifrar" class="caja3">
   <br>
-  <input type="string" id="paCifrar" placeholder="Tu contraseña a cifrar" size="22">
+  <textarea type="text" id="entrada" placeholder="Ingresa tu texto"></textarea>
   <br>
   <br>
-  <input type="text" id="c" placeholder="código" size="12">
+  <input type="number" id="desplazamiento" placeholder="código" size="12" min="1" max="26">
   <br>
   <br>
-  <button type="submit" id="cb">Cifrar</button>
+  <button type="submit" id="botonCifrar">Cifrar</button>
+  <button type="submit" id="botonDescifrar">Descifrar</button>
 </section>
-<section id="descifrar" class="caja4">
-  <br>
-  <input type="text" id="paDescifrar" placeholder="Tu contraseña a descifrar" size="22">
-  <br>
-  <br>
-  <input type="text" id="dc" placeholder="código" size="12">
-  <br>
-  <br>
-  <button type="submit" id="dcb">Descifrar</button>
-
-</section>
-<section id="respuesta" class="caja5">
-  <textarea type="text" id="resCif" placeholder="La respuesta aparecera aquí"></textarea> 
+<section id="respuesta" class="caja4">
+  <textarea type="text" id="salida" placeholder="La respuesta aparecera aquí"></textarea> 
   <button type="reset" id="Limpiar">Limpiar</button>
  </section>
  

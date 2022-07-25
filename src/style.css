@@ -1,3 +1,4 @@
+
 .fondo {
     background-color:  #0593c7;
 }
@@ -20,30 +21,19 @@
 }
 
 .caja3 {
-  display: inline-block;
+  margin: 0 auto;
+  align-items: center;
   background-color: #66d14b;
   border: 3px solid #66d14b;
   color:    black  ;
   font-size: 20px;
   text-align: center;
-  height: 180px ;
+  height: 205px ;
   width:655px ;
 
 }
 
-.caja4 {
-  display: inline-block;
-  background-color: #c74a35;
-  border: 3px solid #c74a35;
-  color:    black  ;
-  font-size: 20px;
-  text-align: center;
-  height: 180px ;
-  width:655px ;
-
-}
-
-#resCif{
+#salida{
 font-size: 17px;
 position: relative;
 left: 510px;
@@ -54,7 +44,14 @@ padding: 10px 60px;
 width: 200px;
 flex-direction: column;
 box-shadow: 0 0 30px rgba(0,0,0,0.2);
-  }
+}
+#dcb:hover{
+  background: transparent;
+  color: #142202;
+  border-color: #a01907;
+  border-width: 3px;
+border-style: solid;
+}
 
 button {
   text-align: center; 
