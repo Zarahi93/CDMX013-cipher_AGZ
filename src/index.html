@@ -18,7 +18,7 @@
 <br> <!--Salto de linea--> 
 <section id="cifrar" class="caja3">
   <br>
-  <textarea type="text" id="entrada" placeholder="Ingresa tu texto"></textarea>
+  <textarea type="text" id="entrada" placeholder="Ingresa tu texto" onKeyUp="document.getElementById(this.id).value=document.getElementById(this.id).value.toUpperCase()"></textarea>
   <br>
   <br>
   <input type="number" id="desplazamiento" placeholder="código" size="12" min="1" max="26">
