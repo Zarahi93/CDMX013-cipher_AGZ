@@ -10,13 +10,8 @@ const cipher = {
         }
         return respuesta.join('')
 
-    decode: function (offset,contr) {
-        
-    }
-   
+   // decode: function (offset,contr) {}
 
-
-
-};
-  export default cipher;
-  
+}
+}
+ export default cipher;
