@@ -21,7 +21,7 @@
   <textarea type="text" id="entrada" placeholder="Ingresa tu texto" onKeyUp="document.getElementById(this.id).value=document.getElementById(this.id).value.toUpperCase()"></textarea>
   <br>
   <br>
-  <input type="number" id="desplazamiento" placeholder="código" size="12" min="1" max="26">
+  <input type="number" id="saltos" placeholder="# Desplazamientos" size="18" min="0" max="26">
   <br>
   <br>
   <button type="submit" id="botonCifrar">Cifrar</button>
@@ -30,6 +30,7 @@
 <section id="respuesta" class="caja4">
   <textarea type="text" id="salida" placeholder="La respuesta aparecera aquí"></textarea> 
   <button type="reset" id="Limpiar">Limpiar</button>
+  
  </section>
  
     <script src="index.js" type="module"></script>

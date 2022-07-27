@@ -1,19 +1,26 @@
 import cipher from './cipher.js';
 
+let contr = document.getElementById('entrada');//texto de entrada del usuario
+let offset = document.getElementById('saltos');//Número de desplazamiento ingresado por el usuario
+let respuesta = document.getElementById('salida');//Texto de salida
+//Configurar el boton de cifrado
+const cifrar = document.getElementById('botonCifrar');
+cifrar.onclick = function() {
+  cipher.encode(offset, contr)
+};
+//Configurar el boton de descifrado
+const descifrar = document.getElementById('botonDescifrar');
+descifrar.onclick = function (){
+  cipher.decode(offset, contr)
+};
+
+//Configurar el boton para limpiar campos
+//Se reyena con una cadena vacia los valores que queremos "Limpiar"
+contr.value = '';
+const clear = document.getElementById('Limpiar');
+clear.addEventListener('click', function handleClick() {
+  console.log(contr.value);
+  contr.value = '';
+});
+
 console.log(cipher);
-
-let string = document.getElementById('entrada');
-let offset = document.getElementById('desplazamiento');
-let respuesta = document.getElementById('salida');
-let cifrar = document.getElementById('botonCifrar');
-let descifrar = document.getElementById('botonDescifrar');
-let reset = document.getElementById('Limpiar');
-
-cifrar.addEventListener('clik', function() {
-  cipher.encode(offset.value, string.value)
-
-});
-
-descifrar.addEventListener('click', function (){
-  cipher.decode(offset.value, string.value)
-});
