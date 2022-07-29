@@ -14,5 +14,6 @@ const descifrar = document.getElementById('botonDescifrar');
 descifrar.addEventListener('click', function() {
   cipher.decode(offset, contr) 
 });
+//Cofigurar boton para limpiar todos los campos
 
 //console.log(cipher);
