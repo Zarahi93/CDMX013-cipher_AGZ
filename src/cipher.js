@@ -7,7 +7,7 @@ encode: (offset,contr)=> {
         for (let i=0; i<contr.length;i++){
             let letra= contr[i];
             console.log(letra)
-            if (letra.match(/[a-z]/i)||letra.match(/[A-Z]/i)){
+            if (letra.match(/[a-z]/i) || letra.match(/[A-Z]/i)){
                 let codigo= contr.charCodeAt(i);//Obtener el codigo ASCII de la letra
                console.log(codigo)
                 //Para mayusculas
