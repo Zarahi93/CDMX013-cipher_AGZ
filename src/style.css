@@ -45,7 +45,7 @@ width: 200px;
 flex-direction: column;
 box-shadow: 0 0 30px rgba(0,0,0,0.2);
 }
-#botonDescifrar:hover{
+#botonCifrar:hover{
   background: transparent;
   color: #142202;
   border-color: #a01907;

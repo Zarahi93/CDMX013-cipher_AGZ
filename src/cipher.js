@@ -1,17 +1,31 @@
 const cipher = {
   
-    encode: function (offset,contr){
-        for (let i= 0; i<contr.length; i++){
-            let code = contr.charCodeAt(i)+ offset
-            while (code>90) {
-                code = (code-90)+65
+encode: (offset,contr)=> {
+    console.log(contr)
+    console.log(offset)
+        let respuesta=''; //Se declara la respuesta
+        for (let i=0; i<contr.length;i++){
+            let letra= contr[i];
+            console.log(letra)
+            if (letra.match(/[a-z]/i)||letra.match(/[A-Z]/i)){
+                let codigo= contr.charCodeAt(i);//Obtener el codigo ASCII de la letra
+               console.log(codigo)
+                //Para mayusculas
+                if(codigo>= 65 && codigo<=90){
+                    letra= String.fromCharCode(((codigo-65+offset)%26)+65);
+                }
+                //Para minusculas
+                else if (codigo>=97 && codigo<=122){
+                    letra= String.fromCharCode(((codigo-97+offset)%26)+97);
+                }
+                console.log(letra)
             }
-            respuesta.push(String.fromCharCode(code))
+            respuesta += letra;
+            console.log(respuesta)
         }
-        return respuesta.join('')
+        return respuesta;
+    }
 
-   // decode: function (offset,contr) {}
-
-}
-}
+//decode: function (offset,contr) {},
+};
  export default cipher;
