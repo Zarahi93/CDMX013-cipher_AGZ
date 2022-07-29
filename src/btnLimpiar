@@ -1,3 +1,6 @@
+
+
+
 //Configurar el boton para limpiar campos
 //Se reyena con una cadena vacia los valores que queremos "Limpiar"
 //contr.value = '';
