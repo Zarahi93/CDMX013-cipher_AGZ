@@ -60,6 +60,9 @@ como tecnologías.
 
 ## 3. Enfoque
 
+Se desea utilizar el cifrado Cesar para crear claves seguras de email. 
+
+El programa funciona para mayusculas y minusculas, respetando los caracteres especiales y los espacion. 
 
 ### Funcionalidad
 
