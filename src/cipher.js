@@ -1,7 +1,7 @@
 const cipher = {
 
     encode: (offset, contr) => {
-        if (offset <= 0 && typeof contr != 'string') {// Hace que cuando offset y contr se ingresan numeros negativos y tipos de datos no cadena por lo que no se corre la funcion
+        if (offset <= 0 && typeof contr != 'string') {// Hace que cuando offset y contr se ingresan numeros negativos y tipos de datos no cadena marque error
             throw new TypeError();
         }
         let respuesta = ''; //Se declara la variable donde se guardara la respuesta
@@ -25,7 +25,7 @@ const cipher = {
 
     decode: (offset, contr) => {
         if (offset <= 0 && typeof contr != 'string') {
-            throw new TypeError(); // Hace que el offset no acepte numeros negativos ni caracteres especiales por lo que no se corre la funcion
+            throw new TypeError();
         }
         let respuesta = ''; //Se declara la variable donde se guardara la respuesta
         for (let i = 0; i < contr.length; i++) {
