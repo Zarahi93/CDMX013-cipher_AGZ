@@ -61,23 +61,27 @@ como tecnologías.
 ## 3. Enfoque
 
 Se utiliza el cifrado Cesar con la finalidad de que el usuario pueda crear claves 
-seguras para su email u cuentas en general. 
+seguras para su email o algun otro tipo de contraseña en general. 
 
 ### Funcionalidad
 
+El programa funciona tanto para mayúsculas como minúsculas mas no en caracteres especiales, la letra Ñ o en alguna letra con acento, diéresis, espacios, etc. 
 
 ### Usuario
 
 
 
 ## 4. Diseño
-
+![Diseño inicial](/Demo.png)
 
 ## 5. Instrucciones
 
-Usa este alfabeto simple (solamente mayúsculas y sin ñ):
+Usa el alfabeto simple (sin asentos, diéresis y sin ñ):
 
 * A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+* a b c d e f g h i j k l m n o p q r s t u v w x y z 
+
+Si utilizas caracteres especiales 
 
 ### Definición del producto
 
