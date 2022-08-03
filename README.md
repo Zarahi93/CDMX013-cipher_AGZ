@@ -57,10 +57,15 @@ gusta escribir sus contraseñas en papel, ya que solo tendrían que recordar un 
 ya que no les serviría de nada al no estar codificada y no tener el número de desplazamientos.
 
 ## 4. Diseño
-El diseño inicial es muy sencillo y la idea era tener dos cajas diferentes de contenido para el cifrado y descifrado, los mensajes cifrados y descifrados aparecerian en un alert en pantalla.
+
+El diseño inicial es muy sencillo y la idea era tener dos cajas diferentes de contenido para el cifrado y descifrado, los mensajes cifrados y descifrados 
+aparecerían en un alert en pantalla.
+
 ![Diseño inicial](/Demo.png)
 
-Al final elegi utilizar una misma caja de contenido, cambiar los colores por unos menos brillantes y agregar un boton para limpiar todos los campos sin tener que recargar la pagína.
+Al final elegí utilizar una misma caja de contenido para cifrado y descifrado, cambiar los colores por unos menos brillantes para que fueran más agradables a
+la vista y agregar un botón para limpiar todos los campos sin tener que recargar la página.
+
 ![Apariencia final](/final.png)
 
 ## 5. Instrucciones
@@ -70,14 +75,10 @@ Usa el alfabeto simple (sin asentos, diéresis y sin ñ):
 * A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 * a b c d e f g h i j k l m n o p q r s t u v w x y z 
 
-Si utilizas caracteres especiales y/o espacios, estos no seran modificados de ninguna manera y conservaran su posición. 
+Si utilizas caracteres especiales y/o espacios, estos no serán modificados de ninguna manera y conservarán su posición.
 
-### Definición del producto
-
-En el README.md, cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso
-para definir el producto final a nivel de experiencia y de interfaz.
-
-* Quiénes son los principales usuarios de producto.
-* Cuáles son los objetivos de estos usuarios en relación con tu producto.
-* Cómo crees que el producto que estás creando está resolviendo sus problemas.
+1. Ingresa el texto que desees en el cuadro 1. 
+2. Selecciona el numero de desplazamientos a utilizar en el recuadro 2.
+![Paso 1 y 2](/cajacontenido.png)
+4. 
 
