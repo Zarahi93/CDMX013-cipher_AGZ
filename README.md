@@ -82,5 +82,5 @@ Si utilizas caracteres especiales y/o espacios, estos no serán modificados de n
 
 ![Paso 1 y 2](/cajacontenido.png)
 
-4. 
+3. 
 
