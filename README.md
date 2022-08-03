@@ -73,6 +73,7 @@ El programa funciona tanto para mayúsculas como minúsculas mas no en caractere
 
 ## 4. Diseño
 ![Diseño inicial](/Demo.png)
+![Apariencia final](/final.png)
 
 ## 5. Instrucciones
 
