@@ -4,7 +4,7 @@
 
 * [1. Preámbulo](#1-preámbulo)
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Enfoque](#3-enfoque)
+* [3. Usuario](#3-usuario)
 * [4. Diseño](#4-diseño)
 * [5.Instrucciones](#5-criterios-de-aceptación-mínimos-del-proyecto)
 
@@ -43,46 +43,44 @@ En este proyecto crearás una aplicación web que servirá para que el usuario
 pueda cifrar y descifrar un texto indicando un desplazamiento específico de
 caracteres (_offset_).
 
-La temática es libre. Tú debes pensar en qué situaciones de la vida real se
-necesitaría cifrar un mensaje y pensar en cómo debe ser esa experiencia de uso
-(qué pantallas, explicaciones, mensajes, colores, ¿marca?) etc. Algunas ideas de
-ejemplo:
-
-* Crear claves seguras para el email.
-* Encriptar/cifrar una tarjeta de crédito.
-* Herramienta de mensajería interna de una organización de derechos humanos en
-  una zona de conflicto.
-* Mensajería secreta para parejas.
-
-Trabajando en parejas aprenderán a construir una aplicación web que interactuará
-con lx usuarix final a través del navegador, utilizando HTML, CSS y JavaScript
-como tecnologías.
-
-## 3. Enfoque
-
+Se utiliza el cifrado Cesar con la finalidad de que el usuario pueda crear claves 
+seguras para su email o algun otro tipo de contraseña en general. 
 
 ### Funcionalidad
 
+El programa funciona tanto para mayúsculas como minúsculas mas no en caracteres especiales, la letra Ñ o en alguna letra con acento, diéresis, espacios, etc. 
 
-### Usuario
+## 3. Usuario
 
-
+Los usuarios serian personas interesadas en aumentar la seguridad de sus contraseñas mediante la codificación de estas. Enfocandoce en las personas que les
+gusta escribir sus contraseñas en papel, ya que solo tendrían que recordar un número y no habría problema alguno si alguien encuentra la contraseña escrita
+ya que no les serviría de nada al no estar codificada y no tener el número de desplazamientos.
 
 ## 4. Diseño
 
+El diseño inicial es muy sencillo y la idea era tener dos cajas diferentes de contenido para el cifrado y descifrado, los mensajes cifrados y descifrados 
+aparecerían en un alert en pantalla.
+
+![Diseño inicial](/Demo.png)
+
+Al final elegí utilizar una misma caja de contenido para cifrado y descifrado, cambiar los colores por unos menos brillantes para que fueran más agradables a
+la vista y agregar un botón para limpiar todos los campos sin tener que recargar la página.
+
+![Apariencia final](/final.png)
 
 ## 5. Instrucciones
 
-Usa este alfabeto simple (solamente mayúsculas y sin ñ):
+Usa el alfabeto simple (sin asentos, diéresis y sin ñ):
 
 * A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+* a b c d e f g h i j k l m n o p q r s t u v w x y z 
 
-### Definición del producto
+Si utilizas caracteres especiales y/o espacios, estos no serán modificados de ninguna manera y conservarán su posición.
 
-En el README.md, cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso
-para definir el producto final a nivel de experiencia y de interfaz.
+1. Ingresa el texto que desees en el cuadro 1. 
+2. Selecciona el numero de desplazamientos a utilizar en el recuadro 2.
 
-* Quiénes son los principales usuarios de producto.
-* Cuáles son los objetivos de estos usuarios en relación con tu producto.
-* Cómo crees que el producto que estás creando está resolviendo sus problemas.
+![Paso 1 y 2](/cajacontenido.png)
+
+4. 
 
