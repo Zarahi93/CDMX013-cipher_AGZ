@@ -79,6 +79,8 @@ Si utilizas caracteres especiales y/o espacios, estos no serán modificados de n
 
 1. Ingresa el texto que desees en el cuadro 1. 
 2. Selecciona el numero de desplazamientos a utilizar en el recuadro 2.
+
 ![Paso 1 y 2](/cajacontenido.png)
+
 4. 
 
