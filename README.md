@@ -52,7 +52,9 @@ El programa funciona tanto para mayúsculas como minúsculas mas no en caractere
 
 ## 3. Usuario
 
-Los usuarios serian personas interesadas en aumentar la seguridad de sus contraseñas mediante la codificación de estas. Enfocandoce  en las personas que les gusta escribir sus contraseñas en papel, ya que solo tendrian que recordar un número y no habria problema alguno si alguien encuentra la contraseña escrita ya que no les serviria de nada al no estar codificada y no tener el número de desplazamientos.
+Los usuarios serian personas interesadas en aumentar la seguridad de sus contraseñas mediante la codificación de estas. Enfocandoce en las personas que les
+gusta escribir sus contraseñas en papel, ya que solo tendrían que recordar un número y no habría problema alguno si alguien encuentra la contraseña escrita
+ya que no les serviría de nada al no estar codificada y no tener el número de desplazamientos.
 
 ## 4. Diseño
 El diseño inicial es muy sencillo y la idea era tener dos cajas diferentes de contenido para el cifrado y descifrado, los mensajes cifrados y descifrados aparecerian en un alert en pantalla.
