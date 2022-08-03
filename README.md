@@ -50,7 +50,7 @@ seguras para su email o algun otro tipo de contraseña en general.
 
 El programa funciona tanto para mayúsculas como minúsculas mas no en caracteres especiales, la letra Ñ o en alguna letra con acento, diéresis, espacios, etc. 
 
-##3. Usuario
+## 3. Usuario
 
 Los usuarios serian personas interesadas en aumentar la seguridad de sus contraseñas mediante la codificación de estas. Enfocandoce  en las personas que les gusta escribir sus contraseñas en papel, ya que solo tendrian que recordar un número y no habria problema alguno si alguien encuentra la contraseña escrita ya que no les serviria de nada al no estar codificada y no tener el número de desplazamientos.
 
