@@ -6,7 +6,7 @@
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
 * [3. Usuario](#3-usuario)
 * [4. Diseño](#4-diseño)
-* [5.Instrucciones](#5-criterios-de-aceptación-mínimos-del-proyecto)
+* [5. Instrucciones](#5-instrucciones)
 
 ***
 
