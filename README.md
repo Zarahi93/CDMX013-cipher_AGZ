@@ -77,10 +77,20 @@ Usa el alfabeto simple (sin asentos, diéresis y sin ñ):
 
 Si utilizas caracteres especiales y/o espacios, estos no serán modificados de ninguna manera y conservarán su posición.
 
+
 1. Ingresa el texto que desees en el cuadro 1. 
-2. Selecciona el numero de desplazamientos a utilizar en el recuadro 2.
+
+2. Selecciona el numero de desplazamientos a utilizar en el cuadro 2.
 
 ![Paso 1 y 2](/cajacontenido.png)
 
-3. 
+3. Dependiendo de lo que desees hacer con el texto presiona el botón para cifrar o descifrar. 
+
+![Cifrar](/cifrar.png) ![Descifrado](/descifrar.png)
+
+4. El texto procesado aparecerá en el recuadro 3, una vez ahí puede ser copiado y usado a su conveniencia.
+ 
+ ![Respuesta](/respuesta.png)
+ 
+5. Por último, presiona el botón “Limpiar” para borrar todos los campos y poder empezar nuevamente.
 
