@@ -23,7 +23,7 @@ const cipher = {
         return respuesta;
     },
 
-    decode: (offset, contr) => {
+    decode: (offset, contr) => {//Funcion flecha
         if (offset <= 0 && typeof contr != 'string') {
             throw new TypeError();
         }

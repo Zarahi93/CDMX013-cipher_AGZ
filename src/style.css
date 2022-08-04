@@ -1,5 +1,5 @@
 
-.fondo {
+.fondo {/* Se elegige por clase*/
     background-color:  #0593c7;
 }
 
@@ -33,7 +33,7 @@
 
 }
 
-#salida{
+#salida{/* se elige por id*/
 font-size: 17px;
 position: relative;
 left: 510px;
