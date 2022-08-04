@@ -43,7 +43,7 @@ const cipher = {
             }
             respuesta += letra;//Concatena todas las letras despues de que fueron descifradas una por una.
         }
-        return respuesta;
+        return respuesta; //Regresa la respuesta final
     }
 };
 export default cipher;
