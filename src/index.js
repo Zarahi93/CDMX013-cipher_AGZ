@@ -1,8 +1,8 @@
 import cipher from './cipher.js';
 
-let contr = (document.getElementById('entrada'));//Guarda en una variable el texto de entrada del usuario
-let offset = (document.getElementById('saltos'));//Captura en una variable el número de desplazamiento ingresado por el usuario
-let respuesta = document.getElementById('salida');//Guarda en una variable el texto de salida y le dice donde mandarlo
+const contr = (document.getElementById('entrada'));//Guarda en una variable el texto de entrada del usuario
+const offset = (document.getElementById('saltos'));//Captura en una variable el número de desplazamiento ingresado por el usuario
+const respuesta = document.getElementById('salida');//Guarda en una variable el texto de salida y le dice donde mandarlo
 //Configurar el boton de cifrado
 const cifrar = document.getElementById('botonCifrar');//Sa asigna una variable al boton a utilizar
 cifrar.addEventListener('click', function() {//Manda a llamar la funcion al momento de dar click al botón

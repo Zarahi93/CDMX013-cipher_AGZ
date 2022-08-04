@@ -53,7 +53,7 @@ box-shadow: 0 0 30px rgba(0,0,0,0.2);
 border-style: solid;
 }
 
-button {
+button {/*Selector de etiqueta o elemento*/
   text-align: center; 
   font-weight: 600;
   font-size: 20px;
